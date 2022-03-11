@@ -1,0 +1,137 @@
+/* GLOBAL SETUP START HERE */
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+body{
+    font-family:Arial, Helvetica, sans-serif;
+}
+/* GLOBAL SETUP END HERE */
+
+/* HEADER AREA START HERE */
+.section{
+    background-image:url(img/background.jpg);
+    background-size:cover;
+    background-repeat:no-repeat;
+    height:100vh;
+}
+.brand-logo img{
+    width:200px;
+    height:40px;
+}
+.header{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top:10px;
+}
+.header-left{
+    display:flex;
+    align-items: center;
+}
+.header-nav ul{
+    list-style: none;
+    margin:0;
+    padding:0;
+}
+.header-nav ul li{
+    list-style:none;
+    display:inline-block;
+}
+.header-nav ul li a{
+    text-decoration:none;
+    color:white;
+    text-transform:capitalize;
+}
+.header-nav ul li a:hover{
+    color:black;
+}
+.nav-left ul{
+    margin:0;
+    padding:0;
+}
+.nav-left ul li{
+    list-style: none;
+    display:inline-block;
+}
+.nav-left ul li a{
+    text-decoration: none;
+    color:white;
+    text-transform:capitalize;
+    margin-right:10px;
+}
+/* HEADER AREA END HERE */
+
+/* MAIN AREA START HERE */
+.main-input{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    text-align:center;
+}
+.form-search input{
+    width:45vw;
+    padding:12px 40px;
+    border-radius:30px;
+    outline:none;
+    border:1px solid rgba(0, 0, 0, 0.4);
+}
+
+.form-group{
+    position:relative;
+}
+.form-mic{
+    position:absolute;
+    right:60px;
+    top:17px;
+}
+.fa-solid{
+    font-size:20px;
+}
+.fa-love{
+    color:white;
+    padding:0px 5px;
+}
+.form-search-icon{
+    position:absolute;
+    right:20px;
+    top:17px;
+}
+/* MAIN AREA END HERE */
+
+/* FOOTER AREA START HERE */
+.footer{
+    position:absolute;
+    bottom:0;
+    width:100%;
+    background:black;
+}
+.footer-main{
+    display:flex;
+    justify-content: space-around;
+}
+.footer-nav ul{
+    margin:0;
+    padding:0;
+    display:flex;
+}
+.footer-nav ul li{
+    list-style:none;
+    display:inline-block;
+}
+.footer-nav ul li a{
+    text-decoration:none;
+    color:rgb(73, 70, 70);
+    font-weight:normal;
+}
+.footer-text{
+    color:rgb(73, 70, 70);
+    margin-top:10px;
+}
+.footer-nav ul li a:hover{
+    color:rgb(73, 70, 70);
+    text-decoration:underline;
+}
+/* FOOTER AREA END HERE */
